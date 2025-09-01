@@ -22,7 +22,7 @@ export const religions: Religion[] = [
   {
     id: 'sikh',
     name: 'Sikh',
-    icon: '🪯',
+    icon: '☬',
     description: 'Sikh funeral customs and ceremonies'
   },
   {
@@ -36,6 +36,12 @@ export const religions: Religion[] = [
     name: 'Jain',
     icon: '🙏',
     description: 'Jain funeral customs and rituals'
+  },
+  {
+    id: 'other',
+    name: 'Other',
+    icon: '🕊️',
+    description: 'Other faiths and spiritual traditions'
   },
   {
     id: 'other',
