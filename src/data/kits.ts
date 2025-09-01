@@ -75,11 +75,24 @@ const jainItems: KitItem[] = [
   { id: 'j7', name: 'Sacred Books', description: 'Jain scriptures', price: 600, required: false, category: 'regional' }
 ];
 
+const otherItems: KitItem[] = [
+  // Essential items
+  { id: 'o1', name: 'White Cotton Cloth', description: 'Pure white shroud for burial/cremation', price: 500, required: true, category: 'essential' },
+  { id: 'o2', name: 'Flowers (White)', description: 'White flowers for ceremony', price: 200, required: true, category: 'essential' },
+  { id: 'o3', name: 'Candles', description: 'For prayers and vigil', price: 100, required: true, category: 'essential' },
+  { id: 'o4', name: 'Incense', description: 'For purification and prayers', price: 80, required: true, category: 'essential' },
+  { id: 'o5', name: 'Sacred Water', description: 'Blessed or purified water', price: 50, required: true, category: 'essential' },
+  // Optional
+  { id: 'o6', name: 'Prayer Book', description: 'Generic prayer book for ceremonies', price: 300, required: false, category: 'regional' },
+  { id: 'o7', name: 'Memorial Items', description: 'Personal memorial items and keepsakes', price: 500, required: false, category: 'regional' }
+];
+
 export const religionKits: ReligionKit[] = [
   { religionId: 'hindu', items: hinduItems },
   { religionId: 'muslim', items: muslimItems },
   { religionId: 'christian', items: christianItems },
   { religionId: 'sikh', items: sikhItems },
   { religionId: 'buddhist', items: buddhistItems },
-  { religionId: 'jain', items: jainItems }
+  { religionId: 'jain', items: jainItems },
+  { religionId: 'other', items: otherItems }
 ];

@@ -264,6 +264,50 @@ const jainServices: Service[] = [
   }
 ];
 
+// Other Religion Services
+const otherServices: Service[] = [
+  {
+    id: 'interfaith-minister',
+    name: 'Interfaith Minister Service',
+    description: 'Experienced interfaith minister for non-denominational ceremonies',
+    price: 2500,
+    duration: '2-4 hours',
+    religionId: 'other'
+  },
+  {
+    id: 'cremation-other',
+    name: 'Cremation Service',
+    description: 'Respectful cremation service for any faith tradition',
+    price: 5000,
+    duration: '4-6 hours',
+    religionId: 'other'
+  },
+  {
+    id: 'burial-other',
+    name: 'Burial Service',
+    description: 'Traditional burial service adaptable to various customs',
+    price: 4500,
+    duration: '3-4 hours',
+    religionId: 'other'
+  },
+  {
+    id: 'memorial-service',
+    name: 'Memorial Service',
+    description: 'Personalized memorial service to honor your loved one',
+    price: 2000,
+    duration: '2-3 hours',
+    religionId: 'other'
+  },
+  {
+    id: 'custom-ceremony',
+    name: 'Custom Ceremony',
+    description: 'Tailored ceremony based on your specific traditions and wishes',
+    price: 3000,
+    duration: 'As needed',
+    religionId: 'other'
+  }
+];
+
 // Export all services grouped by religion
 export const servicesByReligion = {
   hindu: hinduServices,
@@ -271,7 +315,8 @@ export const servicesByReligion = {
   christian: christianServices,
   sikh: sikhServices,
   buddhist: buddhistServices,
-  jain: jainServices
+  jain: jainServices,
+  other: otherServices
 };
 
 // Export all services as a flat array (for backward compatibility if needed)
@@ -281,5 +326,6 @@ export const services: Service[] = [
   ...christianServices,
   ...sikhServices,
   ...buddhistServices,
-  ...jainServices
+  ...jainServices,
+  ...otherServices
 ];
