@@ -51,14 +51,6 @@ export function ConfirmationPage() {
           <p className="text-red-800 font-medium">24/7 Emergency Contact</p>
           <p className="text-red-700 text-sm">For urgent matters, call directly: +91 8273441052</p>
         </div>
-
-        {/* New Booking Button */}
-        <button
-          onClick={() => window.location.reload()}
-          className="mt-8 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105"
-        >
-          Make Another Arrangement
-        </button>
       </div>
     </div>
   );
