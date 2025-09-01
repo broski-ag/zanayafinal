@@ -43,10 +43,4 @@ export const religions: Religion[] = [
     icon: '🕊️',
     description: 'Other faiths and spiritual traditions'
   },
-  {
-    id: 'other',
-    name: 'Other',
-    icon: '🕊️',
-    description: 'Other faiths and spiritual traditions'
-  }
-];
+  ];
